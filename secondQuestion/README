@@ -1,0 +1,40 @@
+# Fibonacci Number Implementations
+
+This repository contains three different implementations to calculate Fibonacci numbers in C. The goal is to explore various approaches to solving the Fibonacci sequence efficiently.
+
+## Development Environment
+
+- Programming Language: C
+- Compiler: GCC (GNU Compiler Collection)
+- Operating System: MacOs
+- Text Editor/IDE: VS code
+- dependecies : Makefile
+
+## Compilation and Execution
+
+The implementations are provided in separate C source code files. You can use the included Makefile to easily compile and run each implementation.
+
+### Choose an Option
+
+To compile and run a specific implementation, use the following make commands:
+
+- `make runFirst` for the recursiveFibo implementation
+- `make runSecond` for the memorizationFibo implementation
+- `make runThird` for the iterativeFibo implementation
+
+For example, to run the recursiveFibo implementation:
+
+    ```make runFirst```
+
+
+### Clean Up
+
+To clean up the compiled executables, use the following make command:
+
+    ```make clean```
+
+
+## Usage
+
+Running each make command will compile and execute the respective Fibonacci implementation. You'll see the output for Fibonacci numbers calculated using different approaches, including recursive, memorization, and iterative methods.
+
