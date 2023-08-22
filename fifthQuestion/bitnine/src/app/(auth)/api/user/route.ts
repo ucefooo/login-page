@@ -49,6 +49,7 @@ export async function POST(req:Request) {
         const {password:newUserPassword, ...rest} = newUser;
         return NextResponse.json({user: rest, message: "User created successfully"},{status: 201});
     } catch (error) {
-        return NextResponse.json({message: "here " + error.message},{status: 500});
+        const  typeError = error as z.ZodError;
+        return NextResponse.json({message: "here " + typeError.message},{status: 500});
     }
 }
