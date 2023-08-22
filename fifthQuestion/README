@@ -4,7 +4,9 @@ please clone and enter to directory ./bitnine and run:
 
 ```npm install```
 
-```npm run dev```
+```npm run build```
+
+```npm run start```
 
 and visit `http://localhost:3000`
 
