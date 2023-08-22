@@ -1,0 +1,14 @@
+## HOW TO RUN
+
+There are 2 files:
+
+## palindrome.js
+
+to run , you will need nodejs installed in your machine then run in the directory of `palindrome.js`:
+
+    ```node palindrome.js```
+
+## palindrome.html
+
+Just open the file in a browser you will get an pop-up alert enter the string you want to check, you will get the results as an alert too.
+To re-test you need to refresh the page.

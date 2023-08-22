@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Palindrome Checker</title>
+</head>
+<body>
+    <script>
+        function isPalindromeOrReverse()
+        {
+            const input = prompt("Enter a word:");
+            const reversedInput = input.split("").reverse().join("");
+            
+            if (input === reversedInput)
+                alert("The word is a palindrome.");
+            else
+                alert(`The word is not a palindrome. Reversed word: ${reversedInput}`);
+        }
+        isPalindromeOrReverse();
+    </script>
+</body>
+</html>
