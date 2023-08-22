@@ -1,0 +1,11 @@
+## TO RUN 
+
+please clone and enter to directory ./bitnine and run: 
+
+```npm install```
+
+```npm run dev```
+
+and visit `http://localhost:3000`
+
+then explore the site you can create an account and sign-in.
